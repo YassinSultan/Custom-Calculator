@@ -1,0 +1,113 @@
+:root {
+    --first-color: #F6F6F6;
+    --second-color: #424242;
+}
+
+body {
+    background-color: var(--second-color);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: var(--first-color);
+    width: 500px;
+    height: 90%;
+    padding: 10px;
+}
+
+.btn {
+    border: none !important;
+    font-size: 30px;
+    background-color: var(--first-color);
+    color: var(--second-color);
+    box-shadow: -2px -1px 5px 0px rgb(255 255 255 / 54%), 4px 7px 11px 0px rgb(0 0 0 / 54%);
+    min-width: fit-content;
+}
+
+.btn:active {
+    color: none !important;
+    border: none !important;
+    box-shadow: inset rgb(0 0 0 / 54%) 1px -1px 13px 0px;
+}
+
+.btn:hover {
+    color: none !important;
+}
+
+.btn:focus-visible {
+    color: var(--second-color) !important;
+    box-shadow: inset rgb(0 0 0 / 54%) 1px -1px 13px 0px;
+}
+
+.btn i {
+    color: var(--second-color);
+}
+
+.zero button {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+input {
+    color: var(--second-color);
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    appearance: textfield;
+}
+
+#prevNum {
+    font-size: 15px !important;
+
+}
+
+#currNum {
+    box-shadow: inset rgb(0 0 0 / 54%) 1px -1px 13px 0px;
+    font-size: 72px !important;
+    direction: ltr1;
+}
+
+#currNum:focus-visible {
+    outline: none;
+
+}
+
+/* offcanvas */
+
+.offcanvas-body ul li {
+    margin: 20px;
+}
+
+.form-switch .form-check-input {
+    height: 30px;
+    width: 60px;
+    margin-right: 0px;
+}
+
+.form-switch {
+    padding-left: 0px;
+}
