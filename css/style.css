@@ -16,8 +16,7 @@ body {
 
 .main {
     background-color: var(--first-color);
-    width: 500px;
-    min-height: 100%;
+    max-width: 500px;
     padding: 10px;
 }
 
