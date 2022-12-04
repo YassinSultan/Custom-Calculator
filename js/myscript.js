@@ -1,7 +1,7 @@
 let currNum = document.getElementById("currNum")
 let prevNum = document.getElementById("prevNum")
-let buttons=document.querySelectorAll("button")
-
+let buttons=document.querySelectorAll(".calc-btn .col button")
+console.log(buttons)
 let num;
 let plus=false;
 let minus=false;
